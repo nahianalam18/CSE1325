@@ -10,6 +10,15 @@ void add_side(double length){
     nsides++;
 }
 
+double get_perimeter(){
+    perimeter = 0;
+    for(int i = 0; i<=nsides;i++)
+    {
+        perimeter+=lengths[i];
+    }
+    return perimeter;
+
+}
 int get_sides(){
     return nsides;
 }
