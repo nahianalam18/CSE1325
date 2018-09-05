@@ -8,7 +8,7 @@ int main(){
 
 // cout << "Enter the length of a side: " ;
     while(temp){
-    cout << "Enter the length of a side: " ;
+    cout << "Enter the lengthssss of a side: " ;
     cin>>temp;
     if(temp<0){
         break;
